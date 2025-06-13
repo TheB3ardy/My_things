@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num1,
+    num2,
+    result,
+    sum;
+
+    printf("Введите первое число: ");
+    scanf("%d", &num1);
+
+    printf("Введите второе число: ");
+    scanf("%d", &num2);
+
+    // ▼▼▼ ВНИМАНИЕ: ЗДЕСЬ НУЖНА ОДНА СТРОКА ▼▼▼
+    result = num1+num2;
+
+    // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+    printf("Результат: %d\n", result);
+    return 0;
+}
